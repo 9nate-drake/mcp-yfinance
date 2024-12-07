@@ -1,6 +1,6 @@
-# Finance MCP Server
+# yfinance MCP Server
 
-A Model Context Protocol server that provides financial data using yfinance.
+A Model Context Protocol server that provides financial data using yfinance (Yahoo Finance api)
 
 ## Installation
 
@@ -23,7 +23,7 @@ Add to your Claude Desktop config file (`claude_desktop_config.json`):
 ```json
 {
   "mcpServers": {
-    "finance": {
+    "yfinance": {
       "command": "python",
       "args": [
         "C:/path/to/finance_server/server.py"
@@ -37,7 +37,7 @@ Add to your Claude Desktop config file (`claude_desktop_config.json`):
 ```json
 {
   "mcpServers": {
-    "finance": {
+    "yfinance": {
       "command": "python",
       "args": [
         "/path/to/finance_server/server.py"
