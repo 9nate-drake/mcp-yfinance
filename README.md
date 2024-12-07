@@ -24,7 +24,6 @@ pip install mcp yfinance
 
 Add to your Claude Desktop config file claude_desktop_config.json (on Windows this is usually at %APPDATA%/Claude/):
 
-### Windows
 ```json
 {
   "mcpServers": {
