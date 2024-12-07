@@ -6,18 +6,18 @@ A Model Context Protocol server that provides financial data using yfinance (Yah
 
 ### Requirements
 - Python 3.10 or higher
-- pip (comes with Python)
+- Claude Desktop
 
 ### Steps
 
 1. Install required packages:
 ```bash
-pip install mcp-python-sdk yfinance
+pip install mcp yfinance
 ```
 
 ## Configuration
 
-Add to your Claude Desktop config file (`claude_desktop_config.json`):
+Add to your Claude Desktop config file (on Windows this is at %APPDATA%/Claude/claude_desktop_config.json) :
 
 ### Windows
 ```json
@@ -52,7 +52,7 @@ Replace the path with the actual full path to your server.py file.
 ## Usage
 
 1. Restart Claude Desktop
-2. Look for the finance server in the 🔌 menu
+2. Look for the yfinance server in the 🔌 menu
 3. Example queries:
    - Get current stock info: "Get me the current stock information for MSFT"
    - Get historical data: "Get me AAPL's historical data for the last 3 months using get_historical_data"
