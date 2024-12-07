@@ -43,8 +43,10 @@ Replace the path with the actual full path to your server.py file.
 1. Restart Claude Desktop
 2. Look for the yfinance server in the 🔌 menu
 3. Example queries:
-   - Get current stock info: "Get me the current stock information for MSFT"
-   - Get historical data: "Get me AAPL's historical data for the last 3 months using get_historical_data"
+   - Get current stock price: "Get me the current stock price for MSFT"
+   - Get historical data: "Analyse the last 3 months of Apple stock performance"
+   - Check ownership: "What's the intsitutional ownership of Nvidia?"
+   - Check analyst targets: "What's the median price target for TSLA?"
 
 ## Development
 
@@ -53,5 +55,5 @@ To modify the server:
 2. Restart Claude Desktop to apply changes
 
 ## TODO
-* Add complete range of yfinance functions
+~~* Add complete range of yfinance functions~~
 * Check compliance with anthropic recommended practice for mcp servers
