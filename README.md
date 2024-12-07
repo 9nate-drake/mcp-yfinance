@@ -31,27 +31,12 @@ Add to your Claude Desktop config file claude_desktop_config.json (on Windows th
     "yfinance": {
       "command": "python",
       "args": [
-        "C:/path/to/finance_server/server.py"
-      ]
-    }
-  }
-}
-```
-
-### macOS
-```json
-{
-  "mcpServers": {
-    "yfinance": {
-      "command": "python",
-      "args": [
         "/path/to/finance_server/server.py"
       ]
     }
   }
 }
 ```
-
 Replace the path with the actual full path to your server.py file.
 
 ## Usage
